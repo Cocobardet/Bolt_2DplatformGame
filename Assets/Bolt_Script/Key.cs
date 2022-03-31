@@ -32,7 +32,7 @@ public class Key : MonoBehaviour
     /// <param name="collision">What collide with our Key?</param>
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player")
         {
             _player.HasKey = true;
             if (GameObject.Find("Player").GetComponent<PlayerController>().HasKey)
