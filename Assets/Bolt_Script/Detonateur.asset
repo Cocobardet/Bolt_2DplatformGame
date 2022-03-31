@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Detonateur
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":261.6845,"y":-207.2455},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-323.0,"y":-254.0},"guid":"1f7687d4-37de-4325-9380-b30347c20b59","$version":"A","$type":"Bolt.SuperUnit","$id":"9"},{"defaultValues":{"duration":{"$content":5.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-73.0,"y":-274.0},"guid":"b37e8817-05c7-4372-bdf2-1121a3713ef5","$version":"A","$type":"Bolt.Cooldown","$id":"12"},{"argumentCount":0,"defaultValues":{"name":{"$content":"DIE","$type":"System.String"},"target":{"$content":1,"$type":"UnityEngine.Object"}},"position":{"x":367.0,"y":-282.0},"guid":"f0a1a9d1-012d-4b40-af17-fd9482333743","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"14"},{"sourceUnit":{"$ref":"9"},"sourceKey":"target","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"833960c4-f930-425d-a382-0c6a3f002d9a","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"becameReady","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"f032b1a8-7b33-4249-a533-3d8f362ae8f1","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 3795a5e7afd836d46a60366ef9bdca5c, type: 2}
+    - {fileID: 1618294266951460, guid: ffdbf84fafc464c4eac31173f8bd9249, type: 3}
