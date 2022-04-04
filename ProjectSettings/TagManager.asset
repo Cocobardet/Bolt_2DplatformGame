@@ -8,6 +8,7 @@ TagManager:
   - Projectile
   - Key
   - Enemy
+  - Apple
   layers:
   - Default
   - TransparentFX
