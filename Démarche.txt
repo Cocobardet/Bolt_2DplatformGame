@@ -1,0 +1,7 @@
+1. Créer Game Object Apple
+2. Créer Game Object Bee
+3. Ajout d'une flow machine sur Apple et Bee
+4. Ajout de oncollisionwith "player" dans le graph apple et dire qu'il se détruit self
+5. Faire apparaître Bee quand le player touche la pomme
+6. Dans le graphe Bee dire que quand le player la touche il meurt
+7. Faire que Bee suive le joueur
